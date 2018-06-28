@@ -1,0 +1,218 @@
+#bgimage {
+    background-image: url(assets/images/funky-lines.png)
+}
+
+.pic {
+    display: inline;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 200px;
+}
+
+.topmargin {
+    margin-top: 10px;
+}
+
+.textbg {
+    background-color: white;
+    
+    
+}
+
+.testbg{
+    background-color: white;
+    height:60px;
+}
+
+.greybg{
+    background-color: gray;
+    
+}
+
+.blockheader{
+    
+    color:teal;
+    position:relative;
+    top: 60px;
+    left:10px;
+    z-index:2;
+    
+}
+
+.topbar{
+    height:90px;
+}
+
+.adjusttext{
+    position:relative;
+    left:800px;
+}
+
+.titleadjust{
+    position:relative;
+    left:200px;
+}
+
+.bottombar{
+    color:green;
+}
+
+.barheight{
+    height:80px;
+    
+}
+
+.bodbrder{
+    padding: 0;
+    border:10px solid blue;
+    
+    
+}
+
+row{
+    margin:0;
+}
+
+.tealbox{
+    background-color: teal;
+    width:225px;
+    height:90px;
+    position:absolute;
+    
+    left:210px;
+    top:0px;
+    z-index: 3;
+}
+
+.index{
+    position:relative;
+    color:white;
+    left: 45px;
+    z-index:4;
+    
+}
+
+.topmargin{
+    margin-top: 20px;
+}
+
+#portfolioimages{
+height:200px;
+width:250px;
+margin: 10px;
+}
+
+#labelcenter{
+background-color: #4aaaa5;
+font-family: 'Georgia', Times, Times New Roman, serif;
+color:white;
+margin: 10px;
+width: 250px;
+height:60px;
+text-align:center;
+font-size: 35px;
+position: relative;
+bottom: 80px;
+left: 80px;
+z-index:5;
+
+
+
+
+}
+
+#labelbg{
+background-color: #4aaaa5;
+font-family: 'Georgia', Times, Times New Roman, serif;
+color:white;
+margin: 10px;
+width: 250px;
+height:60px;
+text-align:center;
+font-size: 35px;
+position: relative;
+bottom: 140px;
+z-index:4;
+
+}
+
+#labelbg2{
+background-color: #4aaaa5;
+font-family: 'Georgia', Times, Times New Roman, serif;
+color:white;
+margin: 10px;
+width: 58%;
+text-align: center;
+display: block;
+position:relative;
+bottom:130px;
+
+font-size: 30px;
+z-index: 4;
+
+}
+
+.tealbox{
+ background-color: teal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 85px;
+    color:white;
+    width:225px;
+    height:90px;
+    position:absolute;
+    left:210px;
+    top:0px;
+    z-index: 1;
+    }
+
+
+    
+    @media only screen and (max-width: 980px) {
+.tealbox{
+ background-color: teal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 85px;
+    color:white;
+    width:225px;
+    height:90px;
+    position:absolute;
+    left:210px;
+    top:0px;
+    z-index: 1;
+    }
+    }
+    
+      @media only screen and (max-width: 768px) {
+.tealbox{
+ background-color: teal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 85px;
+    color:white;
+    width:225px;
+    height:90px;
+    position:absolute;
+    left:150px;
+    top:0px;
+    z-index: 1;
+    }
+    }
+    
+      @media only screen and (max-width: 640px) {
+.tealbox{
+ background-color: teal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 85px;
+    color:white;
+    width:225px;
+    height:90px;
+    position:absolute;
+    left:88px;
+    top:0px;
+    z-index: 1;
+    }
+    }
